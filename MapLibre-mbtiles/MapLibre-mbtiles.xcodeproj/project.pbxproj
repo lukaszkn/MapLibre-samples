@@ -15,6 +15,8 @@
 		B23D1B2C2BF8E95200CA18F5 /* MapLibre_mbtilesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23D1B2B2BF8E95200CA18F5 /* MapLibre_mbtilesUITests.swift */; };
 		B23D1B2E2BF8E95200CA18F5 /* MapLibre_mbtilesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23D1B2D2BF8E95200CA18F5 /* MapLibre_mbtilesUITestsLaunchTests.swift */; };
 		B23D1B3C2BF8E9C200CA18F5 /* MapLibre in Frameworks */ = {isa = PBXBuildFile; productRef = B23D1B3B2BF8E9C200CA18F5 /* MapLibre */; };
+		B23D1B3F2BF8EA5600CA18F5 /* MapLibreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23D1B3E2BF8EA5600CA18F5 /* MapLibreView.swift */; };
+		B23D1B412BF8F3F800CA18F5 /* poland.mbtiles in Resources */ = {isa = PBXBuildFile; fileRef = B23D1B402BF8F3F800CA18F5 /* poland.mbtiles */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		B23D1B272BF8E95200CA18F5 /* MapLibre-mbtilesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MapLibre-mbtilesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B23D1B2B2BF8E95200CA18F5 /* MapLibre_mbtilesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLibre_mbtilesUITests.swift; sourceTree = "<group>"; };
 		B23D1B2D2BF8E95200CA18F5 /* MapLibre_mbtilesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLibre_mbtilesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B23D1B3E2BF8EA5600CA18F5 /* MapLibreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLibreView.swift; sourceTree = "<group>"; };
+		B23D1B402BF8F3F800CA18F5 /* poland.mbtiles */ = {isa = PBXFileReference; lastKnownFileType = file; path = poland.mbtiles; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +100,10 @@
 		B23D1B0F2BF8E95100CA18F5 /* MapLibre-mbtiles */ = {
 			isa = PBXGroup;
 			children = (
+				B23D1B3D2BF8EA4300CA18F5 /* View */,
 				B23D1B102BF8E95100CA18F5 /* MapLibre_mbtilesApp.swift */,
 				B23D1B122BF8E95100CA18F5 /* ContentView.swift */,
+				B23D1B402BF8F3F800CA18F5 /* poland.mbtiles */,
 				B23D1B142BF8E95200CA18F5 /* Assets.xcassets */,
 				B23D1B162BF8E95200CA18F5 /* Preview Content */,
 			);
@@ -127,6 +133,14 @@
 				B23D1B2D2BF8E95200CA18F5 /* MapLibre_mbtilesUITestsLaunchTests.swift */,
 			);
 			path = "MapLibre-mbtilesUITests";
+			sourceTree = "<group>";
+		};
+		B23D1B3D2BF8EA4300CA18F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B23D1B3E2BF8EA5600CA18F5 /* MapLibreView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B23D1B412BF8F3F800CA18F5 /* poland.mbtiles in Resources */,
 				B23D1B182BF8E95200CA18F5 /* Preview Assets.xcassets in Resources */,
 				B23D1B152BF8E95200CA18F5 /* Assets.xcassets in Resources */,
 			);
@@ -267,6 +282,7 @@
 			files = (
 				B23D1B132BF8E95100CA18F5 /* ContentView.swift in Sources */,
 				B23D1B112BF8E95100CA18F5 /* MapLibre_mbtilesApp.swift in Sources */,
+				B23D1B3F2BF8EA5600CA18F5 /* MapLibreView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
