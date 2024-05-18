@@ -2,7 +2,7 @@
 iOS samples for MapLibre native lib.
 
 MapLibre-mbtiles uses SwiftUI and MapLibre Native.<br>
-Eailway tracks and stations on the map are draws using .mbtiles created by tilemaker.
+Railway tracks and stations on the map are draws using .mbtiles created by tilemaker.
 
 <img src="MapLibre-mbtiles/screenshots/Screenshot1.png" width="350">&nbsp;
 <img src="MapLibre-mbtiles/screenshots/Screenshot2.png" width="350">
