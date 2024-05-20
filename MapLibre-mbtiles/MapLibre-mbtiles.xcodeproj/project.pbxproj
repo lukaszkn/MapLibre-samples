@@ -17,6 +17,7 @@
 		B23D1B3C2BF8E9C200CA18F5 /* MapLibre in Frameworks */ = {isa = PBXBuildFile; productRef = B23D1B3B2BF8E9C200CA18F5 /* MapLibre */; };
 		B23D1B3F2BF8EA5600CA18F5 /* MapLibreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23D1B3E2BF8EA5600CA18F5 /* MapLibreView.swift */; };
 		B23D1B412BF8F3F800CA18F5 /* poland.mbtiles in Resources */ = {isa = PBXBuildFile; fileRef = B23D1B402BF8F3F800CA18F5 /* poland.mbtiles */; };
+		B2760F802BF925A200210AB4 /* MapLibreTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2760F7F2BF925A200210AB4 /* MapLibreTapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B23D1B2D2BF8E95200CA18F5 /* MapLibre_mbtilesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLibre_mbtilesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B23D1B3E2BF8EA5600CA18F5 /* MapLibreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLibreView.swift; sourceTree = "<group>"; };
 		B23D1B402BF8F3F800CA18F5 /* poland.mbtiles */ = {isa = PBXFileReference; lastKnownFileType = file; path = poland.mbtiles; sourceTree = "<group>"; };
+		B2760F7F2BF925A200210AB4 /* MapLibreTapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLibreTapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				B23D1B3E2BF8EA5600CA18F5 /* MapLibreView.swift */,
+				B2760F7F2BF925A200210AB4 /* MapLibreTapView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2760F802BF925A200210AB4 /* MapLibreTapView.swift in Sources */,
 				B23D1B132BF8E95100CA18F5 /* ContentView.swift in Sources */,
 				B23D1B112BF8E95100CA18F5 /* MapLibre_mbtilesApp.swift in Sources */,
 				B23D1B3F2BF8EA5600CA18F5 /* MapLibreView.swift in Sources */,

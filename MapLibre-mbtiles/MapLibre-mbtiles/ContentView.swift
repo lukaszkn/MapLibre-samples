@@ -10,7 +10,7 @@ import MapLibre
 
 struct ContentView: View {
     var body: some View {
-        MapLibreView()
+        MapLibreTapView()
             .edgesIgnoringSafeArea(.all)
     }
 }

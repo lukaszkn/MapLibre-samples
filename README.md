@@ -10,3 +10,8 @@ Railway tracks and stations on the map are draws using .mbtiles created by tilem
 MLNMapView coordinator loads mbtiles source and layers once default map style is initialised.
 
 <img src="MapLibre-mbtiles/screenshots/Screenshot3.png" width="710">
+
+
+MapLibreTapView sample view show how to get map features at user's tap point. 
+
+<img src="MapLibre-mbtiles/screenshots/Screenshot4.png" width="710">

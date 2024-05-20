@@ -14,7 +14,7 @@ struct MapLibreView: UIViewRepresentable {
         let mapView = MLNMapView()
         mapView.setCenter(CLLocationCoordinate2DMake(52.2, 19.1), zoomLevel: 4.8, animated: false)
         mapView.delegate = context.coordinator
-
+        
         return mapView
     }
     
